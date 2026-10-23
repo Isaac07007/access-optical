@@ -33,15 +33,23 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-/* nav bar */
-
-#navHeader {
-  display: grid;
-  grid-template-rows: auto auto;
+img {
+  justify-self: center;
 }
 
-#logo {
-  justify-self: center;
+/* nav bar */
+
+#navigation {
+  position: sticky;
+  top: 0;
+  background-color: var(--background);
+  z-index: 10;
+}
+
+.navOptions {
+  display: flex;
+  flex-direction: row;
+  /* overflow: auto; */
 }
 
 .navOptions > * {
@@ -54,11 +62,6 @@ body {
   flex: 1 1;
   border-bottom: 2px solid #d0d0d0;
   margin: auto;
-}
-
-.navOptions {
-  display: flex;
-  flex-direction: row;
 }
 
 /* Navigation Buttons */
