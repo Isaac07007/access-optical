@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Logo() {
     return (
-        <Link href={"/"}>
+        <Link href={"/"} id="logo">
             <Image
                 alt="Access Optical Logo"
                 src={"/access_woman.png"}
