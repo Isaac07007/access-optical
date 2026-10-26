@@ -10,6 +10,10 @@ export default function Logo() {
                 width={264}
                 height={100}
                 loading="eager"
+                style={{
+                    justifySelf: "center",
+                    marginBottom: 10
+                }}
             />
         </Link>
         
