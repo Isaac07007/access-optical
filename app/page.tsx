@@ -3,7 +3,7 @@ import EyeInsights from "./components/EyeInsightsWrapper";
 
 export default function Home() {
   return (
-    <div className="contentWrapper" style={{width: "960px", margin: "auto"}}>
+    <div className="home">
       <Image 
         src={"/dior.jpg"} 
         alt="Display of Dior brand frames"

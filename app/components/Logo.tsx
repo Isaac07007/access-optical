@@ -12,10 +12,10 @@ export default function Logo() {
                 loading="eager"
                 style={{
                     justifySelf: "center",
-                    marginBottom: 10
+                    marginBottom: 10,
+                    marginRight: 20
                 }}
             />
         </Link>
-        
     )
 }

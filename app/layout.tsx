@@ -35,7 +35,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         {/* Nav needs to be body level (not in a header!) so position: sticky will work */}
         <Logo/>
         <Navigation/>
-        {children}
+        <div className="contentWrapper" style={{
+          width: 960,
+          margin: "auto"
+        }}>
+          {children}
+        </div>
         <Footer/>
       </body>
     </html>

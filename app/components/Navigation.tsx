@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Dropdown from "./Dropdown";
 import NavButton from "./NavButton";
 
@@ -14,10 +15,12 @@ export default function Navigation() {
                     {id: 3, path:"/", text:"Coupons"}
                     ]}
                 />
-                <NavButton
-                    label="Request an Eye Exam"
-                    path="/"
-                />
+                <Link
+                    className="navButtonImportant"
+                    href={"https://book2.getweave.com/39368aef-05de-4b5d-8c14-f61fcecc458a/request-appointment"}
+                >
+                    Request an Eye Exam
+                </Link>
                 <NavButton
                     label="Vernon Gantry"
                     path="/"
