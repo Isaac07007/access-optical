@@ -1,5 +1,3 @@
-/* @import url('https://googleapis.com'); */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -20,13 +18,6 @@
     --foreground: #ededed;
   }
 } */
-
-@font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 200;
-    src: url('https://fonts.googleapis.com');
-}
 
 body {
   background: var(--background);
@@ -56,7 +47,7 @@ hr {
 }
 
 .navOptions > * {
-  font-weight: 200;
+  font-weight: 700;
 }
 
 /* Add horizontal line around nav options */

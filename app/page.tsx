@@ -1,5 +1,3 @@
-import Logo from "./components/Logo";
-import Navigation from "./components/Navigation";
 import Image from "next/image";
 import EyeInsights from "./components/EyeInsightsWrapper";
 
@@ -19,16 +17,29 @@ export default function Home() {
       />
       <hr/>
       <div className="whiteSpacer" style={{height: 30}}/>
-      <p className="storeHours" style={{color: "#ae40a5", fontSize: "x-large", textAlign: "center"}}>
-        <strong>
-          Office Hours<br/>
-          Monday - Friday 10am - 6pm<br/>
-          Saturdays 9:30am - 5pm<br/>
-          <br/>
-          Eye Examinations<br/>
-          Monday - Saturday<br/>
-          By appointment / walk-ins when available<br/>
-        </strong>
+      <p className="storeHours" 
+        style={{
+          color: "#000000", 
+          fontSize: "x-large", 
+          textAlign: "center",
+          display: "grid",
+          gridTemplateColumns: "auto auto"
+        }}
+      >
+        <span>
+          <strong>
+            Office Hours<br/>
+            Monday - Friday 10am - 6pm<br/>
+            Saturdays 9:30am - 5pm<br/>
+          </strong>
+        </span>
+        <span>
+          <strong>
+            Eye Examinations<br/>
+            Monday - Saturday<br/>
+            By appointment / walk-ins when available<br/>
+          </strong>
+        </span>
       </p>
       <div className="whiteSpacer" style={{height: 30}}/>
       <hr/>
@@ -59,6 +70,9 @@ export default function Home() {
         src={"/eye-care-clip-art.jpg"}
         width={1100}
         height={799}
+        style={{
+          paddingBottom: 15
+        }}
       />
     </div>
   );
