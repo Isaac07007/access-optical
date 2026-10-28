@@ -9,10 +9,10 @@ export default function Navigation() {
                 <Dropdown
                     label={"Our Practice"}
                     items={[
-                    {id: 0, path:"/", text:"Our Services"},
-                    {id: 1, path:"/", text:"Patient Forms"},
-                    {id: 2, path:"/", text:"Locations"},
-                    {id: 3, path:"/", text:"Coupons"}
+                    {id: 0, path:"/our-practice", text:"About Us"},
+                    {id: 1, path:"/", text:"Our Services"},
+                    {id: 2, path:"/", text:"Patient Forms"},
+                    {id: 3, path:"/", text:"Our Location"}
                     ]}
                 />
                 <Link
