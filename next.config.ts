@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
+  allowedDevOrigins: ['c1jcaowrig.preview.c39.airoapp.ai'],
   experimental: {
     agentFeedback: true,
   },
