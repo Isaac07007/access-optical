@@ -15,7 +15,6 @@ export default function PatientForms() {
                 <FileDownload src="/access_optical__chart_notes.pdf" label="Acess Optical Chart/Notes"/>
                 <FileDownload src="/health_insurance_claim_form.pdf" label="Health Insurance Claim"/>
             </div>
-            
         </div>
     )
 }

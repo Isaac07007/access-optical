@@ -76,15 +76,15 @@ export default function Footer() {
                             </p>
                         </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                         <td
                             style={{
                                 padding: "0 15px"
                             }}
                         >
-                            <Link className="text-cyan-600 hover:text-sky-300" href={"/"}>Notice of Privacy</Link>
+                            <Link className="text-cyan-600 hover:text-sky-300" href={"/privacy-notice"}>Notice of Privacy</Link>
                         </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                         <td
                             style={{

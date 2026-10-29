@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function FileDownload({ src, label }: {src: string, label: string}) {
     return (
         <div className="fileDownload" style={{ float: "none"}}>
-            <a title={label} href={src}>
+            <a title={label} href={src} target="_blank">
                 <Image
                     src={src.endsWith(".pdf") ? iconPDF : iconFile}
                     alt={label}
@@ -17,7 +17,7 @@ export default function FileDownload({ src, label }: {src: string, label: string
                     <b style={{ color: "#8e8e8e" }}>{label}</b>
                 </p>
                 <p>
-                    <a title={`Download File: ${label}`} href={src} style={{ fontWeight: "bold", color: "#5199a8"}}>Download File</a>
+                    <a title={`Download File: ${label}`} href={src} target="_blank" style={{ fontWeight: "bold", color: "#5199a8"}}>Download File</a>
                 </p>
             </div>
         </div>
