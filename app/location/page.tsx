@@ -1,10 +1,6 @@
 import { GoogleMapsEmbed } from "@next/third-parties/google"
 
 export default function LocationPage() {
-    if (!process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY) {
-        console.log("HERES THE PROBLEM!")
-    }
-
     return (
         <div className="location">
             <div style={{
