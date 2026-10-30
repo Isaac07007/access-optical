@@ -35,13 +35,13 @@ export default function LocationPage() {
                     <br/>
                     Appointments Accepted / Not Required
                 </p>
-                <GoogleMapsEmbed
+                {/* <GoogleMapsEmbed
                     apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY ?  process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY : ""}
                     height={300}
                     width="100%"
                     mode="place"
                     q="2169+Merrick+Rd,Merrick,NY+11566"
-                />
+                /> */}
             </div>
         </div>
     )
