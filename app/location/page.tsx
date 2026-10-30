@@ -37,7 +37,7 @@ export default function LocationPage() {
                     Appointments Accepted / Not Required
                 </p>
                 <GoogleMapsEmbed
-                    apiKey={process.env.GOOGLE_MAPS_KEY ?  process.env.GOOGLE_MAPS_KEY : ""}
+                    apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY ?  process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY : ""}
                     height={300}
                     width="100%"
                     mode="place"
