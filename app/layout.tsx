@@ -40,7 +40,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Navigation/>
         <div className="contentWrapper" style={{
           width: 960,
-          margin: "auto"
+          margin: "auto",
+          padding: "15px 0"
         }}>
           {children}
         </div>

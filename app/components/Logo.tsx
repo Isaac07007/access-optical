@@ -13,7 +13,8 @@ export default function Logo() {
                 style={{
                     justifySelf: "center",
                     marginBottom: 10,
-                    marginRight: 20
+                    marginRight: 20,
+                    padding: "15px 0"
                 }}
             />
         </Link>
